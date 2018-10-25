@@ -5,7 +5,14 @@ import './App.css';
 class App extends Component {
   render() {
     return (
-      <div className="App">
+      <div className="App fd-ui fd-ui--fundamental">
+        <div className="fd-ui__header">
+          <nav className="fd-global-nav">
+            <div className="fd-global-nav__group fd-global-nav__group--left">
+              <div className="fd-global-nav__product-name">Fiori Fundamentals on React</div>
+            </div>
+          </nav>
+        </div>
         <header className="App-header">
           <img src={logo} className="App-logo" alt="logo" />
           <p>
